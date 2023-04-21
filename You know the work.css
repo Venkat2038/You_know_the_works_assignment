@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    color: #192d69;
+}
+
+.bg-container {
+    background-color: #F19FA8;
+    min-height: 100vh;
+    padding: 15px;
+    width: 400px;
+    padding-top: 30px;
+}
+
+.profile {
+    font-size: 10px;
+}
+
+.profile-heading {
+    font-size: 20px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 30px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: #192d69;
+}
+
+.profile-sub-heading {
+    font-size: 10px;
+    width: 100px;
+    margin-left: 10px;
+    font-family: "Roboto";
+    color: #192d69;
+}
+
+.paragrph {
+    font-size: 8px;
+    margin: 0px;
+    font-family: "Roboto";
+    margin-left: 40px;
+    color: #192d69;
+}
+
+.paragrph-address {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: "Roboto";
+    margin-left: 40px;
+    color: #192d69;
+}
+
+.vr-line {
+    border: 2px solid #192d69;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-right: 20px;
+    top: 0;
+}
+
+
+.hr-line {
+    border: 2px solid #192d69;
+    margin-top: 0px;
+    width: 86%;
+    margin-left: 50px;
+
+}
+
+.line {
+    border: 2px solid #192d69;
+    margin-top: -17px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    height: 130px;
+}
+
+.main-heading-paragraph {
+    font-size: 8px;
+    margin: 0px;
+    font-family: "Roboto";
+    margin-left: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    color: #192d69;
+}
+
+.work-paragraph {
+    font-size: 8px;
+    margin: 0px;
+    font-family: "Roboto";
+    margin-left: 20px;
+    color: #192d69;
+}
+
+.year {
+    font-size: 8px;
+    margin-left: 35px;
+    color: #192d69;
+}
+
+.icons {
+    height: 50px;
+    width: 50px;
+    background-color: #192d69;
+    border-radius: 33px;
+    text-align: center;
+    padding-top: 12px;
+    color: #F19FA8;
+    font-size: 25px;
+}
+
+.icon {
+    width: 10px;
+    height: 10px;
+}
+
+.dot {
+    font-size: 8px;
+    border-radius: 5px;
+    margin: 2px;
+    margin-top: 8px;
+    color: #192d69;
+}
+
+.iconss {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: #192d69;
+    border-width: 3px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    color: #192d69;
+}
+
+.skills-container {
+    width: 60px;
+}
+
+.skills-container-width {
+    margin-left: -30px;
+}
+
+.icon-name {
+    font-size: 10px;
+    font-family: "Roboto";
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #192d69;
+}
+
+.bg-color {
+    background-color: #192d69;
+    color: #c26f4f;
+}
+
+
+@media(max-width: 576px) {
+    .profile-heading {
+        font-size: 16px;
+    }
+
+    .vr-line {
+        left: 55%;
+        height: 90px;
+    }
+
+    .paragrph {
+        margin-right: 10px;
+    }
+}
